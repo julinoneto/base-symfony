@@ -1,29 +1,21 @@
-# Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
+# Symfony files to ignore
+app/config/parameters.ini
+web/bundles/
+app/bootstrap.php.cache
+app/cache/*
+app/logs/*
+build/
+vendor
+composer.phar
 
-# Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
+## IDE files to ignore
+nbproject/
+.idea/
+*.tmproj
 
-# Managed by Composer
-/app/bootstrap.php.cache
-/var/bootstrap.php.cache
-/bin/*
-!bin/console
-!bin/symfony_requirements
-/vendor/
-
-# Assets and user uploads
-/web/bundles/
-/web/uploads/
-
-# PHPUnit
-/app/phpunit.xml
-/phpunit.xml
-
-# Build data
-/build/
-
-# Composer PHAR
-/composer.phar
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
