@@ -1,3 +1,7 @@
+cosmos_admin_tema:
+    resource: "@CosmosAdminTemaBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
 app:
     resource: @AppBundle/Controller/
     type:     annotation
