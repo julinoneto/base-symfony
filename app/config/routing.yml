@@ -1,5 +1,5 @@
-cosmos_admin_tema:
-    resource: "@CosmosAdminTemaBundle/Resources/config/routing.yml"
+site_admin_tema:
+    resource: "@SiteAdminTemaBundle/Resources/config/routing.yml"
     prefix:   /admin
 
 app:

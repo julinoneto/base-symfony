@@ -1,3 +1,0 @@
-cosmos_admin_tema_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: CosmosAdminTemaBundle:Default:index }

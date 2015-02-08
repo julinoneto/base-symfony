@@ -18,7 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
             new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
-            new Cosmos\Admin\TemaBundle\CosmosAdminTemaBundle(),
+            new Site\Admin\TemaBundle\SiteAdminTemaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

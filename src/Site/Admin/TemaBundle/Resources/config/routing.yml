@@ -1,0 +1,3 @@
+site_admin_tema_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SiteAdminTemaBundle:Default:index }
