@@ -1,6 +1,9 @@
+site_admin_home:
+    resource: "@SiteAdminHomeBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
 site_admin_tema:
     resource: "@SiteAdminTemaBundle/Resources/config/routing.yml"
-    prefix:   /admin
 
 app:
     resource: @AppBundle/Controller/

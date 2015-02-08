@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
             new Site\Admin\TemaBundle\SiteAdminTemaBundle(),
+            new Site\Admin\HomeBundle\SiteAdminHomeBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

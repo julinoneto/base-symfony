@@ -1,0 +1,3 @@
+site_admin_home_homepage:
+    path:     /
+    defaults: { _controller: SiteAdminHomeBundle:Default:index }
