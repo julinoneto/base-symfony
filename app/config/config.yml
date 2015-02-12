@@ -51,6 +51,7 @@ assetic:
 braincrafted_bootstrap:
     less_filter: less   
     icon_prefix: fa
+    fontawesome_dir: %kernel.root_dir%/../web/vendor/font-awesome
 
 # Doctrine Configuration
 doctrine:
